@@ -34,7 +34,7 @@
       "menu": "```╭═══ LEVANTER ═══⊷\n┃❃╭──────────────\n┃❃│ Prefix : {0}\n┃❃│ User : {1}\n┃❃│ Time : {2}\n┃❃│ Day : {3}\n┃❃│ Date : {4}\n┃❃│ Version : {5}\n┃❃│ Plugins : {6}\n┃❃│ Ram : {7}\n┃❃│ Uptime : {8}\n┃❃│ Platform : {9}\n┃❃╰───────────────\n╰═════════════════⊷```"
     },
     "afk": {
-      "example": "> *AFK Usage:*\n- Set AFK: *afk [reason]*\n- Example: *afk main busy hoon* Last seen #lastseen ago\n- Message bhejne se AFK status automatically hat jata hai\n- hatain AFK: *afk off*",
+      "example": "> *AFK Ka Istmal:*\n- Set AFK: *afk [reason]*\n- Example: *afk main busy hoon* Last seen #lastseen ago\n- Message bhejne se AFK status automatically hat jata hai\n- hatain AFK: *afk off*",
       "not_afk": "_Ab aap AFK nahi hain !!_",
       "desc": "_AFK (Away From Keyboard) status set karo_"
     },
@@ -140,7 +140,7 @@
     },
     "pfilter": {
       "desc": "_Personal chats mein global filters manage karein._",
-      "example": "> *Example :*\n- pfilter hi (Jab kisi text message ka reply kar rahe hon)\n- pfilter list (Maujooda pfilters dikhata hai)",
+      "example": "> *Misal :*\n- pfilter hi (Jab kisi text message ka reply kar rahe hon)\n- pfilter list (Maujooda pfilters dikhata hai)",
       "add": "*{0}* _pfilter add hogiya hai._"
     },
     "gpp": {
@@ -149,7 +149,7 @@
     },
     "greet": {
       "setdesc": "_Ek mukhtasir istakbali paigham set karein._",
-      "setexample": "> *Example:* setgreet Hi, ye ik bot hai. Mera owner jawab jald hi dega.",
+      "setexample": "> *misal:* setgreet Hi, ye ik bot hai. Mera owner jawab jald hi dega.",
       "setupdate": "_Greeting message update ho gaya hai._",
       "getdesc": "_Personalized greeting message hasil karein_",
       "notsetgreet": "> Koi greeting message set nahi kiya gaya hai.",
@@ -169,7 +169,7 @@
       "goodbye_delete": "_Goodbye message delete kar diya gaya hai_"
     },
     "groq": {
-      "example": "*Example:* groq Hi\n\nAap optional taur par neeche diye gaye environment variables set kar sakte hain:\n- GROQ_API_KEY\n- GROQ_MODEL\n- GROQ_SYSTEM_MSG\n\nZyada maloomat ke liye, yeh link dekhein, visit: https://console.groq.com/keys",
+      "example": "*Misal:* groq Hi\n\nAap optional taur par neeche diye gaye environment variables set kar sakte hain:\n- GROQ_API_KEY\n- GROQ_MODEL\n- GROQ_SYSTEM_MSG\n\nZyada maloomat ke liye, yeh link dekhein, visit: https://console.groq.com/keys",
       "desc": "_GROQ AI ke sath interact karein_"
     },
     "kick": {
@@ -272,12 +272,12 @@
       "desc": "*_Video ya audio clip ki playback ko reverse karein._*"
     },
     "cut": {
-      "usage": "*Misal:* cut 0;30 (start;duration) (reply to a video or audio).",
-      "not_found": "Please reply to a video or audio with valid start and duration values (e.g., 10;30).",
-      "desc": "Cut a segment from an audio or video file."
+      "usage": "*Misal:* _cut 0;30 (start;duration) (video ya audio par reply karein)._",
+      "not_found": "*_Please video ya audio par reply karein aur valid start aur duration values (jaise, 10;30) specify karein._*",
+      "desc": "*_Audio ya video file se ek segment cut karein._*"
     },
     "trim": {
-      "usage": "Example: trim 10;30 (reply to a video).",
+      "usage": "*Misal:* trim 10;30 (reply to a video).",
       "not_found": "Please reply to a video with valid start and duration values (e.g., 60;30).",
       "desc": "Trim a video between specified start and duration times."
     },
