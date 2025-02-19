@@ -135,38 +135,38 @@
     },
     "gfilter": {
       "desc": "_Groups mein global filters manage karein_",
-      "example": "> *Example :*\n- gfilter hi (message ka reply dety waqt)\n- gfilter list (abhi dainkhy gfilters)",
+      "example": "> *Example :*\n- gfilter hi (message ka reply dety waqt)\n- gfilter list (Maujooda gfilters dikhata hai)",
       "add": "*{0}* _gfilter add hogiya hai_"
     },
     "pfilter": {
-      "desc": "Manage global filters in personal chats",
-      "example": "> *Example :*\n- pfilter hi (while replying to a text message)\n- pfilter list (Shows current pfilters)",
-      "add": "*{0}* pfilter added"
+      "desc": "_Personal chats mein global filters manage karein._",
+      "example": "> *Example :*\n- pfilter hi (Jab kisi text message ka reply kar rahe hon)\n- pfilter list (Maujooda pfilters dikhata hai)",
+      "add": "*{0}* _pfilter add hogiya hai._"
     },
     "gpp": {
-      "desc": "change group icon",
-      "update": "_Group icon Updated_"
+      "desc": "*_Group icon change karein._*",
+      "update": "_Group icon update ho gaya_"
     },
     "greet": {
-      "setdesc": "Set a personalized greeting message",
-      "setexample": "> *Example:* setgreet Hi, this is a bot. My boss will reply shortly.",
-      "setupdate": "_Greeting message has been updated._",
-      "getdesc": "Retrieve the personalized greeting message",
-      "notsetgreet": "> No greeting message has been set.",
-      "deldesc": "Delete the personalized greeting message",
-      "delupdate": "Greeting message has been deleted."
+      "setdesc": "_Ek mukhtasir istakbali paigham set karein._",
+      "setexample": "> *Example:* setgreet Hi, ye ik bot hai. Mera owner jawab jald hi dega.",
+      "setupdate": "_Greeting message update ho gaya hai._",
+      "getdesc": "_Personalized greeting message hasil karein_",
+      "notsetgreet": "> Koi greeting message set nahi kiya gaya hai.",
+      "deldesc": "*Personalized greeting message delete karein*",
+      "delupdate": "_Greeting message delete kar diya gaya hai._"
     },
     "greetings": {
-      "welcome_desc": "Send a welcome message to new members",
-      "welcome_example": "Welcome is currently {0}\n\nFor more details, visit: https://levanter-plugins.vercel.app/faq",
-      "welcome_enable": "_Welcome is now enabled_",
-      "welcome_disable": "_Welcome is now disabled_",
-      "welcome_delete": "_Welcome message deleted_",
-      "goodbye_desc": "Send a goodbye message to members",
-      "goodbye_example": "Goodbye is currently {0}\n\nFor more details, visit: https://levanter-plugins.vercel.app/faq",
-      "goodbye_enable": "_Goodbye is now enabled_",
-      "goodbye_disable": "_Goodbye is now disabled_",
-      "goodbye_delete": "_Goodbye message deleted_"
+      "welcome_desc": "*_New members ko welcome message bhejein ✨_*",
+      "welcome_example": "_Welcome abhi tak hai {0}\n\nAbi ky liye, visit: https://levanter-plugins.vercel.app/faq_",
+      "welcome_enable": "_Welcome abhi enabled hai_",
+      "welcome_disable": "_Welcome abhi disabled hai_",
+      "welcome_delete": "_Welcome message delete kar diya gaya hai_",
+      "goodbye_desc": "*_Members ko goodbye message bhejein._*",
+      "goodbye_example": "*Goodbye abhi tak hai {0}\n\nAbhi ky liye, visit: https://levanter-plugins.vercel.app/faq*",
+      "goodbye_enable": "_Goodbye abhi enabled hai_",
+      "goodbye_disable": "_Goodbye abhi disabled hai_",
+      "goodbye_delete": "_Goodbye message delete kar diya gaya hai_"
     },
     "groq": {
       "example": "*Example:* groq Hi\n\nYou can optionally set the following environment variables:\n- GROQ_API_KEY\n- GROQ_MODEL\n- GROQ_SYSTEM_MSG\n\nFor more details, visit: https://console.groq.com/keys",
