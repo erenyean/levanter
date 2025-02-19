@@ -229,50 +229,50 @@
       "details": "*Name:* {0}\n*Group ID:* {1}@g.us\n*Owner:* {2}\n*Members:* {3}\n*Created on:* {4}\n*Description:* {5}"
     },
     "common_members": {
-      "desc": "Show or kick common memebers in two or more groups",
-      "found": "Found 0 common members."
+      "desc": "_Do ya zyada groups mein common members ko dikhayein ya kick karein._",
+      "found": "_Koi common members nahi mile._"
     },
     "insta": {
-      "usage": "Example: insta <Instagram URL>",
-      "not_found": "Not found.",
-      "desc": "Download Instagram posts, reels, and videos."
+      "usage": "Misal: insta <Instagram URL>",
+      "not_found": "_Nahi Mila._",
+      "desc": "_Instagram posts, reels, aur videos download karein._"
     },
     "ison": {
-      "usage": "Example: ison <phone number>",
-      "not_exist": "`*Not Exist on Whatsapp* ({0})\n`",
-      "exist": "\n*Exist on Whatsapp* ({0})\n",
+      "usage": "Misal: ison <phone number>",
+      "not_exist": "`*Whatsapp par mojood nahi* ({0})\n`",
+      "exist": "\n*Whatsapp par mojood hai* ({0})\n",
       "privacy": "*Privacy Settings on* ({0})\n",
-      "desc": "Check if a phone number is registered on WhatsApp."
+      "desc": "*_Check karein agar ek phone number Whatsapp par register hai._*"
     },
     "lydia": {
-      "usage": "Usage: lydia on | off\nReply or mention to activate for a specific user.",
-      "activated": "Lydia has been activated.",
-      "deactivated": "Lydia has been deactivated.",
-      "note": "This only works from a reply message.",
-      "desc": "Enable or disable the chatbot feature."
+      "usage": "*istmal:* _lydia on | off\nReply or Reply ya mention karke kisi user ke liye activate karein._",
+      "activated": "_Lydia activate ho gayi hai._",
+      "deactivated": "_Lydia deactivate ho gayi hai._",
+      "note": "_Yeh sirf reply message se kaam karega._",
+      "desc": "_Chatbot feature ko on ya off karein_"
     },
     "rotate": {
-      "usage": "Example: rotate right|left|flip (reply to a video).",
-      "not_found": "Please reply to a video and specify a valid rotation direction (right, left, or flip).",
-      "desc": "Rotate a video to the right, left, or flip it.",
+      "usage": "*Istmal*: rotate right|left|flip (video par reply karein).",
+      "not_found": "_video par reply karein aur valid rotation direction (right, left, ya flip) specify karein._",
+      "desc": "_Video ko right, left, ya flip karke rotate karein_",
       "convert": "_Converting..._"
     },
     "mp3": {
-      "usage": "Reply to a video or audio to convert it to MP3.",
-      "not_found": "Please reply to a video or audio message.",
-      "desc": "Convert a video to audio or an audio clip to a voice note."
+      "usage": "_Video ya audio par reply karke ise MP3 mein convert karein._",
+      "not_found": "_video ya audio message par reply karein._",
+      "desc": "_Video ko audio ya audio clip ko voice note mein convert karein._"
     },
     "photo": {
-      "usage": "Reply to a photo sticker to convert it to an image.",
-      "desc": "Convert a sticker into an image."
+      "usage": "*_Sticker photo par reply karke ise image mein convert karein._*",
+      "desc": "*_Sticker ko image mein convert karein_*"
     },
     "reverse": {
-      "usage": "Reply to a video or audio to reverse its playback.",
-      "not_found": "Please reply to a video or audio message.",
-      "desc": "Reverse the playback of a video or audio clip."
+      "usage": "*_Video ya audio par reply karke uski playback ko reverse karein._*",
+      "not_found": "*_video ya audio message par reply karein._*",
+      "desc": "*_Video ya audio clip ki playback ko reverse karein._*"
     },
     "cut": {
-      "usage": "Example: cut 0;30 (start;duration) (reply to a video or audio).",
+      "usage": "*Misal:* cut 0;30 (start;duration) (reply to a video or audio).",
       "not_found": "Please reply to a video or audio with valid start and duration values (e.g., 10;30).",
       "desc": "Cut a segment from an audio or video file."
     },
