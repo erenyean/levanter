@@ -214,18 +214,18 @@
     },
     "join": {
       "desc": "_Invite link se group join karein._",
-      "invalid_link": "Please provide a valid WhatsApp group invite link.",
-      "group_full": "The group is full and cannot accept new members.",
-      "success": "Successfully joined the group.",
-      "request_sent": "Join request sent."
+      "invalid_link": "_ek valid WhatsApp group invite link dein_",
+      "group_full": "*_Group full hai aur naye members ko accept nahi kar sakta._*",
+      "success": "_Group mein successfully join ho gaya._",
+      "request_sent": "_Join request bhej diya gaya._"
     },
     "revoke": {
-      "desc": "Revoke Group invite link",
-      "not_admin": "I'm not an admin, so I can't revoke the invite link."
+      "desc": "_Group invite link revoke karein._",
+      "not_admin": "_Main admin nahi hoon, is liye invite link revoke nahi kar sakta_"
     },
     "group_info": {
-      "desc": "Shows group invite link info",
-      "invalid_link": "Please provide a valid WhatsApp invite link.",
+      "desc": "_Group invite link ki maloomat dikhaye._",
+      "invalid_link": "_ik valid invite link dain_",
       "details": "*Name:* {0}\n*Group ID:* {1}@g.us\n*Owner:* {2}\n*Members:* {3}\n*Created on:* {4}\n*Description:* {5}"
     },
     "common_members": {
