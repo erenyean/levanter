@@ -40,7 +40,7 @@
     },
     "alive": {
       "default": "I'm alive\nUptime : #uptime",
-      "desc": "*Apna koi bhi alive message update kar skty ho*"
+      "desc": "*Apna koi bhi alive message update kar skty ho 🪐*"
     },
     "antifake": {
       "example": "*Antifake Status:* {0}\n\n> *Usage Examples:*\n- *antifake list* - dekain country codes\n- *antifake !91,1* - Allow/Notallow specific country codes\n- *antifake on | off* - Enable/Disable antifake",
@@ -58,54 +58,54 @@
       "action_invalid": "*Invalid action specified.*",
       "action_update": "Antilink action updated to: *{0}*",
       "update": "> Antilink Updated\n*Allowed:* {0}\n*Not Allowed:* {1}",
-      "example": "Antilink Status: *{0}*\n\n> Usage Examples:\n- antilink info - View current settings\n- antilink whatsapp.com - Allow specific URLs\n- antilink on | off - Enable/Disable antilink\n- antilink action/<kick | warn | null> - Set action for link"
+      "example": "Antilink Status: *{0}*\n\n> Usage Examples:\n- antilink info - View current settings\n- antilink whatsapp.com - Allow specific URLs\n- antilink on | off - Enable/Disable antilink\n- antilink action/<kick | warn | null> - action set karain link ky liye"
     },
     "antiword": {
       "desc": "*Group chat mein kuch khaas alfaaz ko filter karain.*",
-      "example": "AntiWord Status: {0}\n> *Usage Examples:*\n- antiword action/<kick | warn | null>* - Set action for violations\n- antiword on | off - Enable/Disable word filtering\n- setvar ANTIWORDS:word1,word2,... - Define blocked words",
+      "example": "AntiWord Status: {0}\n> *Usage Examples:*\n- antiword action/<kick | warn | null>* - Violations ke liye action set karo\n- antiword on | off - Enable/Disable word filtering\n- setvar ANTIWORDS:word1,word2,... - Define karain band lafz ko 🚫",
       "action_update": "*AntiWord update kar diya gaya hai*: *{0}*",
       "status": "*AntiWord ab hai* *{0}*."
     },
     "apk": {
-      "desc": "Download APK from APKMirror",
-      "example": "> *Usage Examples:*\n- apk Mixplorer\n- apk whatsapp,apkm (includes bundle APKs)",
-      "no_result": "_No results found for your query._",
-      "apps_list": "Matching Apps ({0})"
+      "desc": "_APKMirror se APK download karo._",
+      "example": "> *Usage Examples:*\n- apk Mixplorer\n- apk whatsapp,apkm (Ismein bundle APKs shamil hain 🧩)",
+      "no_result": "_Koi results nahi mile aapki query ke liye_",
+      "apps_list": "*Milti julti apps 📂* ({0})"
     },
     "delete": {
-      "desc": "Anti-delete: Recover deleted messages",
-      "example": "> *Usage Examples:*\n- delete p - Send deleted messages to your chat/sudo\n- delete g - Send deleted messages in the same group\n- delete off - Disable anti-delete\n- delete <jid> - Send deleted messages to a specific JID",
+      "desc": "Anti-delete: *_Deleted messages recover karain_*",
+      "example": "> *istamal Examples:*\n- delete p - Deleted messages ko aapki chat mein bhejo/sudo\n- delete g - Deleted messages ko aapky usy group main aayenge\n- delete off - Disable anti-delete\n- delete <jid> - Deleted messages apky diye how JID pe aayenge",
       "invalid_jid": "*Error:* _Invalid JID_",
-      "dlt_msg_jid": " _Deleted messages will be sent to: {0}_",
-      "dlt_msg_disable": "Anti-delete has been disabled.",
-      "dlt_msg_sudo": "_Deleted messages will be sent to your chat or sudo._",
-      "dlt_msg_chat": "_Deleted messages will be sent to the chat itself._"
+      "dlt_msg_jid": " *_Deleted messages bheje jayenge: {0}_*",
+      "dlt_msg_disable": "*_Anti-delete disable kar diya gaya hai._*",
+      "dlt_msg_sudo": "*_Deleted messages aapki chat ya sudo mein bheje jayenge._*",
+      "dlt_msg_chat": "*_Deleted messages chat mein hi bheje jayenge_*"
     },
     "dlt": {
-      "desc": "delete replied messages"
+      "desc": "_Replied messages deleted !!_"
     },
     "fb": {
-      "desc": "Download Facebook video",
+      "desc": "_Download Facebook video_",
       "example": "",
-      "quality": "Choose Video Quality",
-      "invalid": "*Error:* _No video found for the given URL._"
+      "quality": "_Video quality choose karain_",
+      "invalid": "*Error:* _Koi video nahi mili di gayi URL ke liye_"
     },
     "fancy": {
-      "desc": "Creates fancy text from given text",
+      "desc": "*Diye gaye text se fancy text banata hai*",
       "example": "> *Usage:*\nfancy <text>\nfancy <font_number> (reply to a message)\n\n*Example:*\n- fancy Hello\n- fancy 7 (while replying to a message)",
-      "invalid": "*Invalid Font Number!*\nPlease enter a number between *1-47*."
+      "invalid": "*Galat Font Number!*\ek number daalain jo is range mein ho *1-47*."
     },
     "stop": {
-      "desc": "Delete filters in chat",
-      "example": "> *Usage:*\n- stop <filter>\n- stop hi",
+      "desc": "_Chat mein filters delete karain._",
+      "example": "> *Usage:*\n- stop <filter>\n- stop hey",
       "delete": "{0} deleted",
-      "not_found": "_{0} not found in filters._"
+      "not_found": "_{0} Filters mein nahi mila._"
     },
     "filter": {
-      "desc": "Manage filters in groups",
-      "example": "> *Example:*\n- filter hi (while replying a text message)\n- filter list (Shows current filters)",
+      "desc": "_Groups mein filters ko manage karain_",
+      "example": "> *Example:*\n- filter hi (message ka reply dety howy)\n- filter list (Maujooda filters dikhata hai)",
       "list": "> *Current Filters:*\n{0}",
-      "filter_add": "*{0}* filter added"
+      "filter_add": "*{0}* Filter add kar diya gaya hai ✅"
     },
     "forward": {
       "desc": "Forward replied message to specified JID(s)",
