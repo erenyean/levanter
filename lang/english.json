@@ -1,6 +1,6 @@
 {
   "extra": {
-    "init_session": "[{0}] Nai session shutu ho rahe hai",
+    "init_session": "[{0}] Nai session shuru ho rahe hai",
     "load_session": "[{0}] session check ki ja rahi hai",
     "invalid_session": "[{0}] {1} PHIR SE SCAN KARAIN!!!",
     "success_session": "[{0}] Session safalta se validated hogaya hai.",
@@ -46,19 +46,19 @@
       "example": "*Antifake Status:* {0}\n\n> *Usage Examples:*\n- *antifake list* - dekain country codes\n- *antifake !91,1* - Allow/Notallow specific country codes\n- *antifake on | off* - Enable/Disable antifake",
       "desc": "Enable or configure anti-fake number",
       "not": "*_Koi country codes list karne ke liye nahi hain_*",
-      "status": "Antifake is now *{0}*.",
+      "status": "Antifake ab hai *{0}*.",
       "update": "> Antifake Updated\n*Allowed:* {0}\n*Not Allowed:* {1}"
     },
     "antilink": {
       "desc": "Enable or configure anti-link",
       "disable": "_Antilink phaly se disabled hai._",
-      "antilink_notset": "Antilink has not been configured.",
-      "status": "Antilink is now *{0}*.",
+      "antilink_notset": "_Antilink abhi tak configure nahi kiya gaya hai._",
+      "status": "Antilink ab hai *{0}*.",
       "info": "> Antilink Status: {0}\n*Allowed URLs:* {1}\n *Action :* {2}",
       "action_invalid": "*Invalid action specified.*",
       "action_update": "Antilink action updated to: *{0}*",
-      "update": "> Antilink Updated\n*Allowed:* {0}\n*Not Allowed:* {1}",
-      "example": "Antilink Status: *{0}*\n\n> Usage Examples:\n- antilink info - View current settings\n- antilink whatsapp.com - Allow specific URLs\n- antilink on | off - Enable/Disable antilink\n- antilink action/<kick | warn | null> - action set karain link ky liye"
+      "update": "> Antilink Updated\n*Allowed:* {0}\n*jo allowed nahi hain:* {1}",
+      "example": "Antilink Status: *{0}*\n\n> Usage Examples:\n- antilink info - dekahin current settings\n- antilink whatsapp.com - Allow specific URLs\n- antilink on | off - Enable/Disable antilink\n- antilink action/<kick | warn | null> - action set karain link ky liye"
     },
     "antiword": {
       "desc": "*Group chat mein kuch khaas alfaaz ko filter karain.*",
@@ -110,7 +110,7 @@
     "forward": {
       "desc": "Forward replied message to specified JID(s)",
       "foward": "Message forwarded to: {0}",
-      "example": "Invalid JID!\n> *Usage:*\n- forward <jid>\n- forward 1234567890@s.whatsapp.net"
+      "example": "Galat JID!\n> *Istamal:*\n- forward <jid>\n- forward 1234567890@s.whatsapp.net"
     },
     "save": {
       "desc": "Forward replied message to yourself",
