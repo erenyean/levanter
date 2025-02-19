@@ -1,33 +1,33 @@
 {
   "extra": {
-    "init_session": "[{0}] Initiating new session",
-    "load_session": "[{0}] Checking session status",
-    "invalid_session": "[{0}] {1} INVALID SESSION ID, SCAN AGAIN!!!",
-    "success_session": "[{0}] Session successfully validated.",
+    "init_session": "[{0}] Nai session shutu ho rahe hai",
+    "load_session": "[{0}] session check ki ja rahi hai",
+    "invalid_session": "[{0}] {1} PHIR SE SCAN KARAIN!!!",
+    "success_session": "[{0}] Session safalta se validated hogaya hai.",
     "connecting": "[{0}] Connecting...",
-    "connected": "[{0}] Connected {1}",
-    "instance_close": "[{0}] Connection closed",
-    "instance_restart": "[{0}] Instance Restarting...`",
-    "reconnect": "[{0}] reconnecting...({1})",
-    "reconnect_after": "[{0}] reconnect after 1 minutes",
-    "another_login": "[{0}] session logined on another device.",
+    "connected": "[{0}] Connected ✅ {1}",
+    "instance_close": "[{0}] Connection band 🚫",
+    "instance_restart": "[{0}] Instance phir start horha...`",
+    "reconnect": "[{0}] Dobara connect horha...({1})",
+    "reconnect_after": "[{0}] Ik mint ky baad dobara start hoga",
+    "another_login": "[{0}] Ye session kisi doosray device par login hai.",
     "error_message": "```---ERROR REPORT---\n\nVersion : {0}\nMessage : {1}\nError   : {2}\nJid     : {3}\ncommand : {4}\nPlatform : {5}```\n\n```-----``` *Made by LyFE with ❣* ```-----```",
     "deleted_message": "           deletedMessage",
     "install_external_plugin": "[{0}] Installing External plugins...",
-    "installed_external_plugin": "[{0}] External Plugins Installed",
+    "installed_external_plugin": "[{0}] External Plugins Install ho rhe",
     "plugin_install": "[{0}] Installing Plugins...",
-    "plugin_installed": "[{0}] Installed {1}",
-    "plugins_installed": "[{0}] Plugins Installed",
+    "plugin_installed": "[{0}] Installed ✅ {1}",
+    "plugins_installed": "[{0}] Plugins Installed ✅",
     "plugin_install_error": "[{0}] Error installing {1}, deleting plugin",
     "plugin_not_found": "[{0}] plugin {1} not found (404), deleting plugin",
-    "group_cmd": "This command is only available in group chats."
+    "group_cmd": "_ye command sirf group ky liye hai_"
   },
   "plugins": {
     "common": {
-      "reply_to_message": "Reply to a message",
-      "not_admin": "I'm not admin.",
-      "reply_to_image": "Reply to a image",
-      "update": "_Settings updated successfully! Your preferences have been saved and are now active._"
+      "reply_to_message": "_message ka reply dain_",
+      "not_admin": "_main admin nahi hoon !!_",
+      "reply_to_image": "_photo ka reply dain_",
+      "update": "_Settings update hogai ✅_"
     },
     "menu": {
       "help": "```╭────────────────╮\n      ʟᴇᴠᴀɴᴛᴇʀ\n╰────────────────╯\n\n╭────────────────\n│ Prefix : {0}\n│ User : {1}\n│ Time : {2}\n│ Day : {3}\n│ Date : {4}\n│ Version : {5}\n│ Plugins : {6}\n│ Ram : {7}\n│ Uptime : {8}\n│ Platform : {9}\n╰────────────────```",
