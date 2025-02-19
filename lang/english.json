@@ -34,24 +34,24 @@
       "menu": "```╭═══ LEVANTER ═══⊷\n┃❃╭──────────────\n┃❃│ Prefix : {0}\n┃❃│ User : {1}\n┃❃│ Time : {2}\n┃❃│ Day : {3}\n┃❃│ Date : {4}\n┃❃│ Version : {5}\n┃❃│ Plugins : {6}\n┃❃│ Ram : {7}\n┃❃│ Uptime : {8}\n┃❃│ Platform : {9}\n┃❃╰───────────────\n╰═════════════════⊷```"
     },
     "afk": {
-      "example": "> *AFK Usage:*\n- Set AFK: *afk [reason]*\n- Example: *afk I am busy* Last seen #lastseen ago\n- Sending a message automatically removes AFK status\n- Disable AFK: *afk off*",
-      "not_afk": "You are no longer AFK.",
-      "desc": "Set AFK (Away From Keyboard) status"
+      "example": "> *AFK Usage:*\n- Set AFK: *afk [reason]*\n- Example: *afk main busy hoon* Last seen #lastseen ago\n- Message bhejne se AFK status automatically hat jata hai\n- hatain AFK: *afk off*",
+      "not_afk": "_Ab aap AFK nahi hain !!_",
+      "desc": "_AFK (Away From Keyboard) status set karo_"
     },
     "alive": {
       "default": "I'm alive\nUptime : #uptime",
-      "desc": "Display the bot's alive status message with optional custom text."
+      "desc": "*Apna koi bhi alive message update kar skty ho*"
     },
     "antifake": {
-      "example": "*Antifake Status:* {0}\n\n> *Usage Examples:*\n- *antifake list* - View country codes\n- *antifake !91,1* - Allow/Notallow specific country codes\n- *antifake on | off* - Enable/Disable antifake",
+      "example": "*Antifake Status:* {0}\n\n> *Usage Examples:*\n- *antifake list* - dekain country codes\n- *antifake !91,1* - Allow/Notallow specific country codes\n- *antifake on | off* - Enable/Disable antifake",
       "desc": "Enable or configure anti-fake number",
-      "not": "No country codes to list.",
+      "not": "*_Koi country codes list karne ke liye nahi hain_*",
       "status": "Antifake is now *{0}*.",
       "update": "> Antifake Updated\n*Allowed:* {0}\n*Not Allowed:* {1}"
     },
     "antilink": {
       "desc": "Enable or configure anti-link",
-      "disable": "_Antilink is already disabled._",
+      "disable": "_Antilink phaly se disabled hai._",
       "antilink_notset": "Antilink has not been configured.",
       "status": "Antilink is now *{0}*.",
       "info": "> Antilink Status: {0}\n*Allowed URLs:* {1}\n *Action :* {2}",
@@ -61,10 +61,10 @@
       "example": "Antilink Status: *{0}*\n\n> Usage Examples:\n- antilink info - View current settings\n- antilink whatsapp.com - Allow specific URLs\n- antilink on | off - Enable/Disable antilink\n- antilink action/<kick | warn | null> - Set action for link"
     },
     "antiword": {
-      "desc": "Filter specific words in the group chat",
+      "desc": "*Group chat mein kuch khaas alfaaz ko filter karain.*",
       "example": "AntiWord Status: {0}\n> *Usage Examples:*\n- antiword action/<kick | warn | null>* - Set action for violations\n- antiword on | off - Enable/Disable word filtering\n- setvar ANTIWORDS:word1,word2,... - Define blocked words",
-      "action_update": "AntiWord action updated to: *{0}*",
-      "status": "AntiWord is now *{0}*."
+      "action_update": "*AntiWord update kar diya gaya hai*: *{0}*",
+      "status": "*AntiWord ab hai* *{0}*."
     },
     "apk": {
       "desc": "Download APK from APKMirror",
