@@ -159,61 +159,61 @@
     "greetings": {
       "welcome_desc": "*_New members ko welcome message bhejein ✨_*",
       "welcome_example": "_Welcome abhi tak hai {0}\n\nAbi ky liye, visit: https://levanter-plugins.vercel.app/faq_",
-      "welcome_enable": "_Welcome abhi enabled hai_",
-      "welcome_disable": "_Welcome abhi disabled hai_",
+      "welcome_enable": "_Welcome abhi on hai_",
+      "welcome_disable": "_Welcome abhi off hai_",
       "welcome_delete": "_Welcome message delete kar diya gaya hai_",
       "goodbye_desc": "*_Members ko goodbye message bhejein._*",
       "goodbye_example": "*Goodbye abhi tak hai {0}\n\nAbhi ky liye, visit: https://levanter-plugins.vercel.app/faq*",
-      "goodbye_enable": "_Goodbye abhi enabled hai_",
-      "goodbye_disable": "_Goodbye abhi disabled hai_",
+      "goodbye_enable": "_Goodbye abhi on hai_",
+      "goodbye_disable": "_Goodbye abhi off hai_",
       "goodbye_delete": "_Goodbye message delete kar diya gaya hai_"
     },
     "groq": {
-      "example": "*Example:* groq Hi\n\nYou can optionally set the following environment variables:\n- GROQ_API_KEY\n- GROQ_MODEL\n- GROQ_SYSTEM_MSG\n\nFor more details, visit: https://console.groq.com/keys",
-      "desc": "Interact with GROQ AI"
+      "example": "*Example:* groq Hi\n\nAap optional taur par neeche diye gaye environment variables set kar sakte hain:\n- GROQ_API_KEY\n- GROQ_MODEL\n- GROQ_SYSTEM_MSG\n\nZyada maloomat ke liye, yeh link dekhein, visit: https://console.groq.com/keys",
+      "desc": "_GROQ AI ke sath interact karein_"
     },
     "kick": {
-      "desc": "Remove members from Group.",
-      "not_admin": "I'm not an admin, so I can't remove members.",
-      "mention_user": "Please mention a user or reply to their message.",
-      "admin": "The specified user is an admin and cannot be removed.",
-      "kicking_all": "Kicking all non-admin members... ({0} members). Restart the bot if you want to stop."
+      "desc": "_Group se members ko remove karein_",
+      "not_admin": "_Main admin nahi hoon, is liye members ko remove nahi kar sakta._",
+      "mention_user": "_kisi user ka naam mention karein ya unke message ka jawab dein._",
+      "admin": "_Specified user ek admin hai aur ise remove nahi kiya jaa sakta_",
+      "kicking_all": "_Saare non-admin members ko kick kiya jaa raha hai...  ({0} members). Agar aap isay rokna chahte hain to bot ko restart karein._"
     },
     "add": {
-      "desc": "add a member to groups",
-      "warning": "> Avoid adding numbers that aren't saved in contacts; this can increase the risk of being banned.",
-      "not_admin": "I'm not an admin, so I can't add members.",
-      "invalid_number": "Please provide a valid phone number. Example: add 91987654321",
-      "failed": "Failed to add. An invite has been sent instead."
+      "desc": "_Group mein ek member ko add karein_",
+      "warning": "> Aise numbers ko add na karein jo contacts mein saved na ho, is se ban hone ka risk barh sakta hai.",
+      "not_admin": "_Main admin nahi hoon, is liye members ko add nahi kar sakta_.",
+      "invalid_number": "_ek valid phone number dein. Misal: add 91987654321_",
+      "failed": "_Add karne mein naakam. Ek invite bhej diya gaya hai._"
     },
     "promote": {
-      "desc": "Give admin role",
-      "not_admin": "I'm not an admin, so I can't modify roles.",
-      "mention_user": "Please mention a user or reply to their message.",
-      "already_admin": "The user is already an admin."
+      "desc": "_Admin role dein._",
+      "not_admin": "_Main admin nahi hoon, is liye roles modify nahi kar sakta._",
+      "mention_user": "_kisi user ka naam mention karein ya unke message ka jawab dein_",
+      "already_admin": "_Ye phaly se admin hai._"
     },
     "demote": {
-      "desc": "Remove admin role",
-      "not_admin": "I'm not an admin, so I can't modify roles.",
-      "mention_user": "Please mention a user or reply to their message.",
-      "not_admin_user": "The user is not an admin."
+      "desc": "_Admin role remove karein_",
+      "not_admin": "_Main admin nahi hoon, is liye roles modify nahi kar sakta_",
+      "mention_user": "*_kisi user ka naam mention karein ya unke message ka jawab dein_*",
+      "not_admin_user": "_Ye phaly se admin hai._"
     },
     "invite": {
-      "desc": "Get a group invite link",
-      "not_admin": "I'm not an admin, so I can't generate an invite link.",
-      "success": "Here’s the group invite link:\n{0}"
+      "desc": "_Group invite link hasil karein_",
+      "not_admin": "*_Main admin nahi hoon, is liye group settings change nahi kar sakta_*",
+      "success": "_Yeh raha group invite link:\n{0}_"
     },
     "mute": {
-      "desc": "Makes groups admins only",
-      "not_admin": "I'm not an admin, so I can't change group settings.",
-      "mute": "Muted for {0} minutes."
+      "desc": "_Group ko admin-only banaye._",
+      "not_admin": "_Main admin nahi hoon, is liye invite link generate nahi kar sakta._",
+      "mute": "_{0} minutes ke liye mute kiya gaya hai._"
     },
     "unmute": {
-      "desc": "Makes Group All participants can send Message",
-      "not_admin": "I'm not an admin, so I can't change group settings."
+      "desc": "_Group mein sab participants ko message bhejne ki ijaazat de._",
+      "not_admin": "_Main admin nahi hoon, is liye group settings change nahi kar sakta._"
     },
     "join": {
-      "desc": "Join groups with invite link",
+      "desc": "_Invite link se group join karein._",
       "invalid_link": "Please provide a valid WhatsApp group invite link.",
       "group_full": "The group is full and cannot accept new members.",
       "success": "Successfully joined the group.",
