@@ -277,53 +277,53 @@
       "desc": "*_Audio ya video file se ek segment cut karein._*"
     },
     "trim": {
-      "usage": "*Misal:* trim 10;30 (reply to a video).",
-      "not_found": "Please reply to a video with valid start and duration values (e.g., 60;30).",
-      "desc": "Trim a video between specified start and duration times."
+      "usage": "*Misal:* trim 10;30 (video par reply karein).",
+      "not_found": "_Please video par reply karein aur valid start aur duration values (misal: 60;30) dein._",
+      "desc": "_Video ko di gayi start aur duration times ke darmiyan trim karein._"
     },
     "page": {
-      "usage": "Example: page 1 (reply to an image).",
-      "not_found": "Please reply to an image with a numeric caption indicating the page number.",
-      "desc": "Add an image as a page to a PDF document.",
+      "usage": "*Misal:* 1 page (tasveer par reply karein).",
+      "not_found": "*Please kisi tasveer par reply karein aur ek numeric caption dein jo page number dikhaye.*",
+      "desc": "_Ek image ko PDF document mein ek page ke tor par add karein._",
       "add": "Page {0} added!"
     },
     "pdf": {
-      "usage": "Example: pdf note (provide a title for the PDF).",
-      "not_found": "Please provide a title for the PDF document.",
-      "desc": "Convert images to a PDF document."
+      "usage": "*Misal:* _pdf note (PDF ka title dein)._",
+      "not_found": "*_Please PDF document ke liye ek title dein !!_*",
+      "desc": "*_Images ko ek PDF document mein Tabdeel karein._*"
     },
     "merge": {
-      "usage": "Example: merge 1 (reply with an order number to a video).",
-      "not_found": "Please reply to a video with a valid order number.",
-      "desc": "Merge multiple videos into one.",
+      "usage": "*Misal*: _merge 1 (video par reply karein aur ek order number dein)._",
+      "not_found": "_ek video par reply karein jisme ek valid order number ho._",
+      "desc": "_bhut se videos ko ek saath merge karein._",
       "merge": "_Merging {0} videos_",
-      "add": "_Video {0} added_"
+      "add": "_Video {0} add hogai hai_"
     },
     "compress": {
-      "usage": "Reply to a video to compress it.",
-      "desc": "Compress a video file to reduce its size."
+      "usage": "_Ek video par reply karein taake usay compress kiya ja sake._",
+      "desc": "_Video file ko chhota karne ke liye compress karein_"
     },
     "bass": {
-      "usage": "Example: bass 10 (reply to an audio or video).",
-      "desc": "Alter the bass levels of an audio file."
+      "usage": "*Misal:* : _bass 10 (audio ya video par reply karein)._",
+      "desc": "*_Audio file ke bass levels ko Tabdeel karein._*"
     },
     "treble": {
-      "usage": "Example: treble 10 (reply to an audio or video).",
-      "desc": "Alter the treble levels of an audio file."
+      "usage": "*Misal:* _treble 10 (audio ya video par reply karein)._",
+      "desc": "_Audio file ke treble levels ko Tabdeel karein._"
     },
     "histo": {
-      "usage": "Reply to an audio or video to generate a histogram video.",
-      "desc": "Convert audio to a visual video histogram."
+      "usage": "_Audio ya video par reply karein taake ek histogram video Bann sake._",
+      "desc": "_Audio ko ek visual video histogram mein convert karein._"
     },
     "vector": {
-      "usage": "Reply to an audio or video to create a vector visualization video.",
-      "desc": "Convert audio to a vector visualization video."
+      "usage": "*_Audio ya video par reply karein taake ek vector visualization video ban sake_*",
+      "desc": "*_Audio ko ek vector visualization video mein convert karein._*"
     },
     "crop": {
-      "usage": "Example: crop 512,512,0,512 (reply to a video).",
-      "not_found": "Please reply to a video with valid crop dimensions in the format: out_w,out_h,x,y.",
-      "desc": "Crop a video to the specified dimensions.",
-      "xcrop": "Video width: *{0}*, height: *{1}*\nChoose output size in between."
+      "usage": "*Misal:* _crop 512,512,0,512 (Video Ka Reply Dein)._",
+      "not_found": "_ek video par reply karein jisme valid crop dimensions ho, format: out_w,out_h,x,y_",
+      "desc": "_Video ko di gayi dimensions ke mutabiq crop karein._",
+      "xcrop": "_Video width: {0}, height: {1} \nOutput size choose karein jo in dimensions ke darmiyan ho._"
     },
     "low": {
       "usage": "Reply to an audio or video to lower the pitch.",
