@@ -326,58 +326,58 @@
       "xcrop": "_Video width: {0}, height: {1} \nOutput size choose karein jo in dimensions ke darmiyan ho._"
     },
     "low": {
-      "usage": "Reply to an audio or video to lower the pitch.",
-      "desc": "Alter the audio pitch to a lower tone."
+      "usage": "_Audio ya video par reply karein taake uski pitch kam ki ja sake._",
+      "desc": "*_Audio ki pitch ko neeche wale lehje mein badlein._"
     },
     "pitch": {
-      "usage": "Reply to an audio or video to adjust the pitch.",
-      "not_found": "Please reply to an audio or video message.",
-      "desc": "Adjust the pitch of an audio file."
+      "usage": "_Audio ya video par reply karein taake uski pitch adjust ki ja sake._",
+      "not_found": "*_Audio ya video paighaam par reply karein._*",
+      "desc": "*_Audio ki pitch ko adjust karein._*"
     },
     "avec": {
-      "usage": "Reply to an audio or video to convert it into a video format.",
-      "not_found": "Please reply to an audio or video message.",
-      "desc": "Convert an audio clip into a video."
+      "usage": "_Audio ya video par reply karein taake ise video shakal mein tabdeel kiya ja sake._",
+      "not_found": "_Audio ya video paighaam par reply karein_",
+      "desc": "_Ek audio clip ko video mein tabdeel karein._"
     },
     "avm": {
-      "usage": "Reply with both audio and video to merge them.",
-      "desc": "Merge audio and video files into one.",
-      "audio_add": "_Audio added!_",
-      "video_add": "_Video added!_"
+      "usage": "_Audio aur video dono par reply karein taake unko milaya ja sake._",
+      "desc": "_Audio aur video file ko ek saath mila kar aik banayein_",
+      "audio_add": "*_Audio add hogiya!_*",
+      "video_add": "*_Video add hogiya!_*"
     },
     "black": {
-      "usage": "Reply to an audio or video to generate a video with a black background.",
-      "desc": "Convert an audio clip into a video with a black background."
+      "usage": "*_Audio ya video par reply karein taake aik siyah pas manzar wala video banaya ja sake._*",
+      "desc": "*_Ek awaz clip ko siyah pas manzar ke sath video mein tabdeel karein._*"
     },
     "mediafire": {
-      "usage": "Example: mediafire <Mediafire URL>",
-      "not_found": "File not found. Please verify the URL and try again.",
-      "desc": "Download a file from Mediafire."
+      "usage": "*Misal:* _mediafire <Mediafire URL>_",
+      "not_found": "_file nahi mili. Barae karam rabta dobara dekhein aur koshish karein._",
+      "desc": "_Mediafire se file download karein._"
     },
     "mention": {
-      "usage": "Example: mention on | off | get\n(Reply to a message to target a specific user.)",
-      "desc": "Configure and manage the mention feature for automated replies.",
-      "not_activated": "Reply to mention not activated.",
-      "current_status": "Mention is {0}. For details, visit: https://levanter-plugins.vercel.app/faq",
-      "activated": "Reply-to mention activated.",
-      "deactivated": "Reply-to mention deactivated.",
-      "updated": "Mention settings updated."
+      "usage": "*Misal:* _mention chalu | band | hasil karein (Kisi paighaam ka jawab dein taake aik khas shakhs ko nishana banaya ja sake.)_",
+      "desc": "_Mention ka intizami aur moattali jawab ka nizam banayein_",
+      "not_activated": "*_Reply-to mention band hai._*",
+      "current_status": "_Mention hai {0}. Tafseelat ke liye dekhein: https://levanter-plugins.vercel.app/faq_",
+      "activated": "*_Reply-to mention active kar diya gaya hai._*",
+      "deactivated": "_Reply-to mention band kar diya gaya hai_",
+      "updated": "*_mention ki settings update kar di gayi hain._*"
     },
     "status": {
-      "usage": "Usage: status on | off | no-dl | except-view <jid,...> | only-view <jid,...>",
-      "desc": "Automatically manage the viewing of WhatsApp statuses."
+      "usage": "*Istmal:* _status on | off | no-dl | except-view <jid,...> | only-view <jid,...>_",
+      "desc": "_WhatsApp Status dekhnay ka intizami tor tareeqa banayein._"
     },
     "call": {
-      "usage": "Usage: call on | off",
-      "desc": "Automatically reject incoming calls."
+      "usage": "*Istmal:* call on | off",
+      "desc": "_Aane wale callon ko khud ba khud rad karne ka nizam banayein_*"
     },
     "read": {
-      "usage": "Usage: read on | off",
-      "desc": "Enable or disable auto-reading of incoming messages."
+      "usage": "*Istmal:* read on | off",
+      "desc": "_Aane wale messages ko khud ba khud parhna chalu ya band karein_"
     },
     "online": {
-      "usage": "Usage: online on | off",
-      "desc": "Keep your account status always online."
+      "usage": "*Istaml:* online on | off",
+      "desc": "_Apny account ko hamseha online rakain._"
     },
     "movie": {
       "usage": "Example: movie <movie title>",
