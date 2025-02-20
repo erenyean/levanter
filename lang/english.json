@@ -93,7 +93,7 @@
     "fancy": {
       "desc": "*Diye gaye text se fancy text banata hai*",
       "example": "> *Usage:*\nfancy <text>\nfancy <font_number> (reply to a message)\n\n*Example:*\n- fancy Hello\n- fancy 7 (while replying to a message)",
-      "invalid": "*Galat Font Number!*\ik number daalain jo is range mein ho *1-47*."
+      "invalid": "*Galat Font Number!*\nek number daalain jo is range mein ho *1-47*."
     },
     "stop": {
       "desc": "_Chat mein filters delete karain._",
