@@ -403,73 +403,73 @@
     },
     "amute": {
       "usage": "*Istmaal:* _amute <hour> <min>\n- amute on | off\n- amute info\n\n reply text message ky sath mute message set karain._",
-      "desc": "Schedule automatic group muting at a specified time with an optional custom message.",
-      "not_found": "AutoMute settings not found.",
-      "already_disabled": "AutoMute already disabled.",
-      "enabled": "AutoMute Enabled.",
-      "disabled": "AutoMute Disabled.",
-      "invalid_format": "> Example:\n- amute 6 0\n- amute on | off\n- amute info\n\nReply with text to set a mute message.",
-      "scheduled": "Group will mute at {0}\n*message :* {1}",
+      "desc": "_Muqarrar waqt par automatic group mute karne ka intizam karein, aik pasandeeda paighaam dene ka ikhtiyar bhi mojood hai._",
+      "not_found": "_AutoMute settings nahi mili_",
+      "already_disabled": "_AutoMute pehle se hi disabled hai._",
+      "enabled": "_AutoMute Enabled._",
+      "disabled": "_AutoMute Disabled._",
+      "invalid_format": "> Example:\n- amute 6 0\n- amute on | off\n- amute info\n\nUnmute message set karne ke liye text reply karein",
+      "scheduled": "_Group mute hojaiga {0}\n*message :* {1}_",
       "info": "Hour: {0}\nMinute: {1}\nTime: {2}\nMute: {3}\nMessage: {4}"
     },
     "aunmute": {
-      "usage": "Usage: aunmute <hour> <min>\n- aunmute on | off\n- aunmute info\nReply with text to set an unmute message",
-      "desc": "Schedule automatic group unmuting at a specified time with an optional custom message.",
-      "not_found": "AutoUnMute settings not found.",
-      "already_disabled": "AutoUnMute already disabled.",
-      "enabled": "AutoUnMute Enabled.",
-      "disabled": "AutoUnMute Disabled.",
-      "invalid_format": "> Example:\n- aunmute 16 30\n- aunmute on | off\n- aunmute info\n\nReply with text to set an unmute message.",
-      "scheduled": "Group will unmute at {0}\n*message :* {1}",
+      "usage": "*Istmaal:* _aunmute <hour> <min>\n- aunmute on | off\n- aunmute info\nunmute message set karne ke liye text reply karein._",
+      "desc": "*_Muqarrar waqt par automatic group unmute karne ka intizam karein, aik pasandeeda paighaam dene ka ikhtiyar bhi mojood hai._",
+      "not_found": "_AutoUnMute settings nahi mili._",
+      "already_disabled": "_AutoUnMute pehle se hi disabled hai._",
+      "enabled": "_AutoUnMute Enabled._",
+      "disabled": "_AutoUnMute Disabled._",
+      "invalid_format": "> Example:\n- aunmute 16 30\n- aunmute on | off\n- aunmute info\n\nUnmute message set karne ke liye text reply karein.",
+      "scheduled": "_Group unmute hojaiga {0}\n*message :* {1}_",
       "info": "Hour: {0}\nMinute: {1}\nTime: {2}\nMute: {3}\nMessage: {4}"
     },
     "zushi": {
-      "usage": "> Example:\n- zushi ping, sticker\n- To set all commands, type 'list' and then reply with the copied message (e.g., zushi copied_message).",
-      "desc": "Allows you to enable specific commands for use by others in the chat.",
-      "already_set": "{0} is already configured.",
-      "allowed": "*allowed commands for* @{0}\n{1}"
+      "usage": "> Example:\n- zushi ping, sticker\n- Sab commands set karne ke liye ‘list’ type karein aur phir copied message ke sath reply karein (e.g., zushi copied_message)..",
+      "desc": "_Ye feature chat mein dusre logon ke liye mukhtalif commands enable karne ki sahulat deta hai_",
+      "already_set": "_{0} ye phaly configured hai._",
+      "allowed": "*Ijazat di gayi commands* @{0}\n{1}"
     },
     "yami": {
-      "usage": "Simply use: yami",
-      "desc": "Displays the list of commands that are currently allowed in this chat.",
-      "not_set": "No allowed commands have been set yet."
+      "usage": "*Instmaal:* _yami_",
+      "desc": "_Ye feature is chat mein mojood allowed commands ki list dikhata hai._",
+      "not_set": "_Abhi tak koi bhi allowed commands set nahi hui hain._"
     },
     "ope": {
-      "usage": "Example: ope ping, sticker OR ope all",
-      "desc": "Deletes or unsets the specified allowed commands.",
-      "not_found": "No allowed commands found for {0}.",
-      "all_removed": "All allowed commands have been removed.",
-      "removed": "*removed commands for* @{0}\n{1}"
+      "usage": "*Misaal:* _ope ping, sticker OR ope all_@",
+      "desc": "_Ye feature mukhtalif allowed commands ko delete ya unset karne ke liye istemal hota hai._",
+      "not_found": "_{0} ke liye koi bhi allowed commands nahi mili_",
+      "all_removed": "_Sab allowed commands hata di gayi hain !!_",
+      "removed": "*remove ki gai commands* @{0}\n{1}"
     },
     "pdm": {
-      "usage": "Usage: pdm on | off",
-      "desc": "Enable or disable automatic notifications for promote/demote events in the group.",
-      "not_found": "Please specify 'on' or 'off'. For example: pdm on",
-      "activated": "Promote/demote alert activated.",
-      "deactivated": "Promote/demote alert deactivated."
+      "usage": "*Istmaal:* pdm on | off",
+      "desc": "_Group mein promote/demote events ke liye automatic notifications enable ya disable karein._",
+      "not_found": "_‘on’ ya ‘off’ specify karein. Misaal: pdm on_",
+      "activated": "_Promote/demote alert activated hai_",
+      "deactivated": "_Promote/demote alert deactivated hai_"
     },
     "ping": {
-      "desc": "Check the bot's response time (latency).",
-      "ping_sent": "Ping!",
-      "pong": "Pong! Response time: {0} ms"
+      "desc": "_Bot ki response time (latency) check karein_",
+      "ping_sent": "_Ruko zara sabar karo !!_",
+      "pong": "*Pong! Response time: {0} ms*"
     },
     "pinterest": {
-      "usage": "Example: pinterest <Pinterest URL>",
-      "not_found": "No media found. Please check the URL and try again.",
-      "desc": "Download Pinterest videos or images."
+      "usage": "*Istmaal:* _pinterest <Pinterest URL>_",
+      "not_found": "_Koi media nahi mila. URL check karein aur dobara koshish karein._",
+      "desc": "_Pinterest se videos ya images download karein._"
     },
     "plugin": {
-      "usage": "> Example:\n- plugin <Gist URL>\n- plugin list",
-      "desc": "Install external plugins by providing a Gist URL containing the plugin code, or list all installed plugins.",
-      "invalid": "Please provide a valid plugin URL or plugin name.",
-      "not_installed": "No plugins are currently installed.",
-      "installed": "Newly installed plugins: {0}"
+      "usage": "> Misaal:\n- plugin <Gist URL>\n- plugin list",
+      "desc": "_Gist URL de kar external plugins install karein ya sab installed plugins ki list dekhein_",
+      "invalid": "*_sahih plugin URL ya naam dein._*",
+      "not_installed": "_Abhi tak koi plugins install nahi hain._",
+      "installed": "*Nai plugins install ki gayi: {0}✅*"
     },
     "remove": {
-      "usage": "> Example:\b- remove <plugin_name>\n- remove all",
-      "desc": "Delete external plugins by specifying the plugin name or remove all installed plugins.",
-      "not_found": "Plugin *{0}* not found.",
-      "removed": "Plugins have been successfully removed."
+      "usage": "> Misaal:\b- remove <plugin_name>\n- remove all",
+      "desc": "_External plugins ko unka naam likh kar delete karein ya sab plugins ek sath remove karein._",
+      "not_found": "Plugin *{0}* nahi mila ❗",
+      "removed": "_Plugins kamiyabi se remove kar diye gaye._"
     },
     "reboot": {
       "desc": "Restart the bot instance using PM2.",
