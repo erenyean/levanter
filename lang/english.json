@@ -551,92 +551,92 @@
     },
     "setstatus": {
       "usage": "*Misaal:* _setstatus jid,jid,jid,... OR setstatus contact_",
-      "desc": "Set a WhatsApp status for specific contacts or for imported contacts. Reply to a message (text, image, or video) to set the status.",
-      "reply_required": "Please reply to a message to set the status.",
-      "sent": "_Status sent to {0} contacts._"
+      "desc": "*_Specific contacts ya imported contacts ke liye WhatsApp status set karein. Kisi message (text, image, ya video) par reply karein taake status set ho sake._",
+      "reply_required": "_Status set karne ke liye kisi message par reply karein._",
+      "sent": "_Status {0} contacts ko bhej diya gaya_"
     },
     "scstatus": {
-      "usage": "Examples:\n- scstatus jid,jid,jid,...|min-hour-day-month (day and month optional)\n- scstatus contact|min-hour-day-month\n- scstatus delete all|min-hour-day-month\n- scstatus list",
-      "desc": "Schedule a WhatsApp status to be sent at a specified time. Use 'contact' for imported contacts or provide specific JIDs.",
-      "reply_required": "Please reply to a message to schedule the status.",
-      "invalid": "Invalid format. Please follow one of the examples provided.",
-      "scheduled": "_Successfully scheduled to send at_ {0}.",
-      "list": "Scheduled status list:",
-      "deleted": "Schedule deleted."
+      "usage": "> Misaal:\n- scstatus jid,jid,jid,...|min-hour-day-month (day and month optional)\n- scstatus contact|min-hour-day-month\n- scstatus delete all|min-hour-day-month\n- scstatus list",
+      "desc": "_Diye gaye time par WhatsApp status bhejne ke liye schedule karein. 'contact' ka use imported contacts ke liye karein ya specific JIDs provide karein._",
+      "reply_required": "*Status schedule karne ke liye kisi message par reply karein.*",
+      "invalid": "_Invalid format. Example ko follow karein_",
+      "scheduled": "_Successfully scheduled send kiya gaya hai_ {0}.",
+      "list": "_Scheduled status list:_",
+      "deleted": "_Schedule delete kar diya gaya hai._"
     },
     "antispam": {
-      "usage": "Usage: antispam on | off",
-      "desc": "Enable or disable the AntiSpam feature for the group.",
-      "activated": "AntiSpam activated.",
-      "deactivated": "AntiSpam deactivated."
+      "usage": "*Istmaal: antispam on | off*",
+      "desc": "_Group ke liye AntiSpam feature ko enable ya disable karein._",
+      "activated": "_AntiSpam activated._",
+      "deactivated": "_AntiSpam deactivated._"
     },
     "sticker": {
-      "desc": "Convert an image or video to a sticker. Reply to an image or video message to generate a sticker.",
-      "reply_required": "Please reply to an image or video."
+      "desc": "_Kisi image ya video ko sticker me convert karein. Sticker banane ke liye kisi image ya video message par reply karein._",
+      "reply_required": "_Sticker banane ke liye kisi image ya video par reply karein._"
     },
     "circle": {
-      "desc": "Convert an image into a circular sticker.",
-      "reply_required": "Please reply to an image."
+      "desc": "_Kisi image ko circular sticker me convert karein._",
+      "reply_required": "*_Circular sticker banane ke liye kisi image par reply karein._*"
     },
     "take": {
-      "usage": "Example: take <title,artists,url> (reply to a sticker or audio). For audio, title is required; artists and URL are optional.",
-      "desc": "Change the sticker pack by updating its metadata. If replying to a sticker, update its pack metadata. If replying to audio, add metadata (title, artists, URL) to the file.",
-      "reply_required": "Please reply to a sticker or audio message.",
-      "additional_info": "For audio metadata, the artists or URL are optional."
+      "usage": "*Misaal:* _take <title,artists,url> (sticker ya audio par reply karein). Audio ke liye title zaroori hai; artists aur URL optional hain._",
+      "desc": "_Sticker pack ka metadata update karein. Agar sticker par reply karein, to pack metadata update hoga. Agar audio par reply karein, to uska metadata (title, artists, URL) add hoga_",
+      "reply_required": "_Sticker ya audio par reply Dein._",
+      "additional_info": "_Audio metadata ke liye, artists ya URL optional hain._"
     },
     "mp4": {
-      "desc": "Convert an animated sticker (WebP) into an MP4 video.",
-      "reply_required": "Please reply to an animated sticker."
+      "desc": "*_Animated sticker (WebP) ko MP4 video me convert karein._*",
+      "reply_required": "*_MP4 me convert karne ke liye kisi animated sticker par reply karein._*"
     },
     "story": {
-      "usage": "Example: story <username> (or reply to a message containing the username)",
-      "desc": "Download Instagram stories for the specified username. If multiple stories are available, a list will be provided for selection.",
-      "not_found": "No stories found for the provided username.",
-      "list": "Total {0} stories available. Please select one to download.\n"
+      "usage": "*Misaal:* _story <username> (ya kisi message par reply karein jo username contain karta ho_*",
+      "desc": "_Diye gaye username ke Instagram stories download karein. Agar multiple stories available hon, to ek list provide ki jayegi selection ke liye._",
+      "not_found": "_Diye gaye username ke liye koi stories nahi mili._",
+      "list": "_Total {0} stories available hain. Download karne ke liye ek select karein._\n"
     },
     "tag": {
-      "usage": "Example: tag all | tag admin | tag notadmin | tag <custom message> (or reply to a message with 'tag')",
-      "desc": "Tag members in the group based on your choice. Use 'all' to mention every member, 'admin' to mention only group admins, 'notadmin' to mention non-admin members, or provide a custom message to be sent along with the mentions."
+      "usage": "*Misaal:* _tag all | tag admin | tag notadmin | tag <custom message> (ya kisi message par 'tag' likh kar reply karein)._",
+      "desc": "_Group members ko tag karein apni pasand ke mutabiq. 'all' ka use sabhi members ko mention karne ke liye karein, 'admin' sirf group admins ko mention karega, 'notadmin' non-admin members ko mention karega, ya phir ek custom message bhejne ke liye apni message likhein_",
     },
     "tictactoe": {
-      "usage": "Example: tictactoe <opponent_jid> OR tictactoe restart <opponent_jid> OR tictactoe end",
-      "desc": "Play a TicTacToe game against an opponent. Challenge a user by mentioning them, replying to their message, or specifying their JID. Use 'tictactoe end' to finish the game and 'tictactoe restart <opponent_jid>' to restart with a new opponent.",
-      "choose_opponent": "Please choose an opponent by replying to a message or mentioning a user. You cannot play against yourself.",
-      "game_ended": "Game ended.",
-      "game_restarted": "Game restarted with the new opponent.",
-      "invalid_input": "Invalid input. Please provide a valid opponent or use 'end' or 'restart' appropriately.",
-      "players": "Players",
-      "already_occupied": "_Already Occupied_",
-      "current_player": "currentPlayer",
-      "game_finish": "Game Finish 🏁",
-      "winner": "Winner"
+      "usage": "*Misaal:* _tictactoe <opponent_jid> YA tictactoe restart <opponent_jid> YA tictactoe end_",
+      "desc": "> TicTacToe game khelein kisi opponent ke against. Kisi user ko challenge karne ke liye unka mention karein, unke message par reply karein, ya unka JID specify karein. 'tictactoe end' game khatam karne ke liye use karein aur 'tictactoe restart <opponent_jid>' naye opponent ke sath game restart karne ke liye.",
+      "choose_opponent": "_Kisi opponent ko choose karein message par reply karke ya user ko mention karke. Aap khud se nahi khel sakte._",
+      "game_ended": "_Game khatam._",
+      "game_restarted": "_Game naye opponent ke sath restart ho gaya hai._",
+      "invalid_input": "_Invalid input. Sahi opponent provide karein ya 'end' aur 'restart' ka sahi tareeke se use karein._",
+      "players": "*Players*",
+      "already_occupied": "*_Already Occupied_*",
+      "current_player": "*currentPlayer"",
+      "game_finish": "_Game Finish 🏁_",
+      "winner": "_winner 🏆_"
     },
     "tiktok": {
-      "usage": "Usage: tiktok <TikTok URL> (or reply to a message with the URL)",
-      "desc": "Download a TikTok video from the provided URL.",
-      "not_found": "Video not found. Please verify the URL and try again."
+      "usage": "*Istmaal: _tiktok <TikTok URL> (ya kisi message par reply karein jo URL contain karta ho)_",
+      "desc": "_Diye gaye URL se TikTok video download karein_",
+      "not_found": "*_Koi video nahi mila. URL ko verify karein aur dobara koshish karein._*"
     },
     "tog": {
-      "usage": "Example: tog ping off",
-      "desc": "Enable or disable a bot command.",
-      "invalid": "Invalid input. Use: tog <command> on|off (e.g., tog ping off)",
-      "self_reference": "Did you really want to kill me?",
-      "enabled": "{0} Enabled.",
-      "disabled": "{0} Disabled."
+      "usage": "*Misaal:* _tog ping off_",
+      "desc": "_Kisi bot command ko enable ya disable karein._",
+      "invalid": "_Invalid input. Use: tog <command> on|off (e.g., tog ping off)_",
+      "self_reference": "_Kya aap waqai mujhe band karna chahte hain?_",
+      "enabled": "*_{0} Enabled._*",
+      "disabled": "*_{0} Disabled._*"
     },
     "trt": {
-      "usage": "Example: trt ml hi OR trt ml (reply to a text message)",
-      "desc": "Translate text using Google Translate. Specify the target language code (and optionally the source language code) when replying to a message."
+      "usage": "*Misaal:* _trt ur hi YA trt ur (kisi text message par reply karein._",
+      "desc": "*_Google Translate ka use karke text translate karein. Target language code specify karein (aur optional source language code) jab reply karein._*"
     },
     "twitter": {
-      "usage": "Example: twitter <Twitter URL> (or reply to a message containing the URL)",
-      "desc": "Download a Twitter video. If multiple quality options are available, you'll be prompted to choose one.",
-      "not_found": "No video found for the provided Twitter URL.",
+      "usage": "*Misaal:* _twitter <Twitter URL> (ya kisi message par reply karein jo URL contain karta ho)_",
+      "desc": "*_Twitter se video download karein. Agar multiple quality options available hon, to aapko choose karne ka option milega_*",
+      "not_found": "_Diye gaye Twitter URL ke liye koi video nahi mila._",
       "choose_quality": "> Choose Video Quality\n"
     },
     "upload": {
-      "usage": "Example: upload <URL> (or reply to a message containing a URL)",
-      "desc": "Download media from a provided URL. For shortened Google Images URLs, the direct image URL is retrieved automatically."
+      "usage": "*_Example: upload <URL> (ya kisi message par reply karein jo URL contain karta ho)_*",
+      "desc": "_Diye gaye URL se media download karein. Agar short Google Images URL diya gaya ho, to direct image URL automatically retrieve ho jayega._"
     },
     "url": {
       "usage": "Example: url OR url imgur (reply to an image or video)",
