@@ -430,7 +430,7 @@
       "allowed": "*Ijazat di gayi commands* @{0}\n{1}"
     },
     "yami": {
-      "usage": "*Instmaal:* _yami_",
+      "usage": "*Istmaal:* _yami_",
       "desc": "_Ye feature is chat mein mojood allowed commands ki list dikhata hai._",
       "not_set": "_Abhi tak koi bhi allowed commands set nahi hui hain._"
     },
@@ -472,33 +472,33 @@
       "removed": "_Plugins kamiyabi se remove kar diye gaye._"
     },
     "reboot": {
-      "desc": "Restart the bot instance using PM2.",
-      "starting": "Restarting..."
+      "desc": "_Bot instance ko PM2 se dobara start karein._",
+      "starting": "```Restarting...```"
     },
     "fullpp": {
-      "usage": "Example: fullpp (reply to an image)",
-      "desc": "Set full-size profile picture.",
-      "updated": "Profile picture updated."
+      "usage": "*Misaal:* fullpp (photo ka reply dain)",
+      "desc": "*_Full-size profile picture set karein_*",
+      "updated": "_Profile picture update ho gayi hai ✅_"
     },
     "jid": {
-      "desc": "Returns the JID of a user or chat. It checks for a mentioned user, a reply message, or defaults to the current chat's JID."
+      "desc": "_User ya chat ka JID return karta hai. Yeh mention kiye gaye user, reply message, ya phir default current chat ka JID check karega._"
     },
     "left": {
-      "desc": "Leaves the current group. If additional text is provided, it will be sent before leaving."
+      "desc": "*_Current group se leave karne ka command. Agar additional text diya jaye, toh leave hone se pehle wo send hoga._*"
     },
     "block": {
-      "usage": "Example: block (reply to or mention a user)",
-      "desc": "Blocks the specified user.",
-      "status": "Blocked"
+      "usage": "*Misaal:* _block (reply karein ya kisi user ko mention karein)_",
+      "desc": "_Mentioned user ko block karein._",
+      "status": "_Blocked 🚫_"
     },
     "unblock": {
-      "usage": "Example: unblock (reply to or mention a user)",
-      "desc": "Unblocks the specified user.",
-      "status": "_Unblocked_"
+      "usage": "*Misaal:* _unblock (reply karein ya kisi user ko mention karein)_",
+      "desc": "_Mentioned user ko unblock karein._",
+      "status": "_Unblocked ✅_"
     },
     "pp": {
-      "usage": "Example: pp (reply to an image)",
-      "desc": "Updates your profile picture using the image from the replied message."
+      "usage": "*Misaal:* _pp (image ka reply dain)_",
+      "desc": "_Replied image ko profile picture banaein._"
     },
     "whois": {
       "number": "*Number :* {0}",
@@ -509,48 +509,48 @@
       "members": "*Members* : {0}",
       "description": "*desc* : {0}",
       "created": "*Created* : {0}",
-      "usage": "Example: whois <jid or user identifier>",
-      "desc": "Displays the profile picture and additional information (e.g., about, status) of a user or group."
+      "usage": "*Misaal:* _whois <jid ya user ka identifier>_",
+      "desc": "*_User ya group ka profile picture aur additional maloomat (e.g., about, status) dikhata hai._*"
     },
     "gjid": {
-      "desc": "Lists all group JIDs along with their group names."
+      "desc": "*Sabhi groups ke JIDs aur unke names ki list dikhata hai.*"
     },
     "qr": {
-      "usage": "Example: qr test  OR  reply to a QR image with qr",
-      "desc": "Generate a QR code from the provided text or decode a QR code from a replied image."
+      "usage": "*Misaal:* *_qr test YA reply karein kisi QR image par qr likh kar_*",
+      "desc": "_Diye gaye text se QR code generate karein ya kisi replied QR code image ko decode karein._"
     },
     "reddit": {
-      "usage": "Example: reddit <URL>",
-      "desc": "Downloads a video from the specified Reddit post using the provided URL.",
-      "error": "No video found for the given URL."
+      "usage": "*Misaal:* _reddit <URL>_",
+      "desc": "_Diye gaye Reddit post se video download karein._",
+      "error": "_Diye gaye URL ke liye koi video nahi mila._"
     },
     "rmbg": {
-      "usage": "Example: rmbg (reply to an image)",
-      "desc": "Removes the background from the replied image using the remove.bg API",
-      "key": "To use this command, ensure you have signed up at remove.bg, verified your account, copied your API key, and set it using .setvar RMBG_KEY:<your_api_key> (e.g., .setvar RMBG_KEY:GWQ6jVy9MBpfYF9SnyG8jz8P). SIGNUP: https://accounts.kaleido.ai/users/sign_up | API KEY: https://www.remove.bg/dashboard#api-key",
-      "error": "Missing API key or image. Please set your API key and reply to an image."
+      "usage": "*Misaal:* _rmbg (image ka reply dain)_",
+      "desc": "_Replied image ka background remove karein using remove.bg API_",
+      "key": "> Is command ko use karne ke liye remove.bg par sign up karein, apna account verify karein, API key copy karein, aur is tarah set karein: .setvar RMBG_KEY:<your_api_key> (e.g., .setvar RMBG_KEY:GWQ6jVy9MBpfYF9SnyG8jz8P). SIGNUP: https://accounts.kaleido.ai/users/sign_up | API KEY: https://www.remove.bg/dashboard#api-key",
+      "error": "_API key ya image missing hai. Apni API key set karein aur kisi image par reply karein._"
     },
     "setschedule": {
-      "usage": "> *Example :*\n- setschedule jid,min-hour-day-month (in 24 hour format, day and month optional)\n- setschedule 91987654321@s.whatsapp.net, 9-9-13-8\n- setschedule 91987654321@s.whatsapp.net, 0-10 (send message daily at 10 am)\n- setschedule 91987654321@s.whatsapp.net, 0-10, once (send message at 10 am, one time)",
-      "desc": "Schedule a message to be sent automatically at a specified time. Provide the target JID(s) and time (in minutes-hour-day-month format; day and month are optional). Reply to the message you want to schedule.",
-      "invalid": "Invalid schedule format or time. Please follow one of the examples provided.",
-      "no_reply": "Please reply to the message that you want to schedule for sending.",
-      "scheduled": "_Successfully scheduled to send at_ *{0}* _in_ @{1}."
+      "usage": "> Misaal :\n- setschedule jid,min-hour-day-month (24-hour format me, day aur month optional hain)\n- setschedule 91987654321@s.whatsapp.net, 9-9-13-8\n- setschedule 91987654321@s.whatsapp.net, 0-10 (har roz 10 am par message bhejne ke liye)\n- setschedule 91987654321@s.whatsapp.net, 0-10, once (sirf ek baar 10 am par message bhejne ke liye)",
+      "desc": "_Automatically message bhejne ke liye ek schedule set karein. Target JID(s) aur time provide karein (minutes-hour-day-month format me; day aur month optional hain). Jo message schedule karna ho, us par reply karein_",
+      "invalid": "_Invalid schedule format ya time. Example ko follow karein._",
+      "no_reply": "_Jo message schedule karna chahte hain, us par reply karein_",
+      "scheduled": "_Successfully scheduled send kiya gaya hai_ *{0}* _in_ @{1}."
     },
     "getschedule": {
-      "desc": "Retrieve all scheduled messages for the specified chat.",
-      "not_found": "There are no scheduled messages.",
-      "time": "Time : {0}"
+      "desc": "_Specified chat ke sabhi scheduled messages ko retrieve karein._",
+      "not_found": "_Koi scheduled messages nahi mile._",
+      "time": "*Time : {0}*"
     },
     "delschedule": {
-      "usage": "> Example:\n- delschedule 9198765431@s.whatsapp.net, 8-8-10-10\n- delschedule 9198765431@s.whatsapp.net\n- delschedule all",
-      "desc": "Delete a scheduled message by specifying the target JID and time, or remove all scheduled messages.",
-      "invalid": "Invalid format. Please follow one of the examples.",
-      "not_found": "Schedule not found.",
-      "deleted": "_Schedule deleted._"
+      "usage": "> Misaal:\n- delschedule 9198765431@s.whatsapp.net, 8-8-10-10\n- delschedule 9198765431@s.whatsapp.net\n- delschedule all",
+      "desc": "_Ek scheduled message ko delete karein target JID aur time specify karke, ya sabhi scheduled messages remove karein._",
+      "invalid": "_Invalid format. Example ko follow karein._",
+      "not_found": "_Schedule nahi mila._",
+      "deleted": "_Schedule delete hogiya._"
     },
     "setstatus": {
-      "usage": "Example: setstatus jid,jid,jid,... OR setstatus contact",
+      "usage": "*Misaal:* _setstatus jid,jid,jid,... OR setstatus contact_",
       "desc": "Set a WhatsApp status for specific contacts or for imported contacts. Reply to a message (text, image, or video) to set the status.",
       "reply_required": "Please reply to a message to set the status.",
       "sent": "_Status sent to {0} contacts._"
