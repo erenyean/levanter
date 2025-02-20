@@ -607,7 +607,7 @@
       "invalid_input": "_Invalid input. Sahi opponent provide karein ya 'end' aur 'restart' ka sahi tareeke se use karein._",
       "players": "*Players*",
       "already_occupied": "*_Already Occupied_*",
-      "current_player": "*currentPlayer"",
+      "current_player": "*currentPlayer",
       "game_finish": "_Game Finish 🏁_",
       "winner": "_winner 🏆_"
     },
