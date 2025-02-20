@@ -639,81 +639,81 @@
       "desc": "_Diye gaye URL se media download karein. Agar short Google Images URL diya gaya ho, to direct image URL automatically retrieve ho jayega._"
     },
     "url": {
-      "usage": "Example: url OR url imgur (reply to an image or video)",
-      "desc": "Convert an image or video to a URL. Optionally, specify a parameter (e.g., 'imgur') to get the URL from a specific service."
+      "usage": "*Misaal:* _url OR url imgur (kisi image ya video par reply karein)_",
+      "desc": "*_Kisi image ya video ko URL me convert karein. Agar chahein, to ek parameter (e.g., 'imgur') specify karein taake kisi specific service se URL mile._*"
     },
     "getvar": {
-      "usage": "Example: getvar sudo",
-      "desc": "Display the value of a variable. Provide the variable key (case-insensitive) to retrieve its value.",
-      "not_found": "{0} not found in vars."
+      "usage": "*Misaal:* _getvar sudo_",
+      "desc": "_Kisi variable ki value dikhayein. Variable key (case-insensitive) provide karein taake uski value retrieve ho sake._",
+      "not_found": "*{0} vars me nahi mila.*"
     },
     "delvar": {
-      "usage": "Example: delvar sudo",
-      "desc": "Delete a variable by specifying its key.",
-      "not_found": "{0} not found in vars.",
-      "deleted": "{0} deleted."
+      "usage": "*Misaal:* _delvar sudo_",
+      "desc": "_Variable ko delete karein uski key specify karke._",
+      "not_found": "*{0} vars me nahi mila.*",
+      "deleted": "_{0} deleted ✅_"
     },
     "setvar": {
-      "usage": "Example: setvar key = value",
-      "desc": "Set a variable with a specific key and value. Use '=' to separate the key from the value.",
-      "success": "New var {0} added as {1}."
+      "usage": "*Misaal:* _setvar key = value_",
+      "desc": "_Kisi specific key aur value ke sath ek variable set karein. '=' ka use karein key aur value ko separate karne ke liye._",
+      "success": "*Naya variable {0} as {1} add kar diya gaya hai.*"
     },
     "allvar": {
-      "desc": "Display all stored variables in sorted order."
+      "desc": "*_Sabhi stored variables ko sorted order me dikhayein_*"
     },
     "vote": {
-      "usage": "> Example :\nvote q|What your favorite color?\no|😀|Blue\no|😊|Red",
-      "desc": "Initiate a vote in a WhatsApp group.",
-      "notes": "If no recipients are specified, the vote message will simply be sent to the current group.",
-      "no_vote": "No votes available!",
-      "total_vote": "total votes : *{0}*",
-      "delete_vote": "Delete the current vote to set a new one.",
-      "option_required": "two or more options required",
-      "question_required": "question required",
-      "vote": "React or reply option to vote.",
+      "usage": "> Misaal:\nvote q|Apka Fav colour konsa hai?\no|🖤|Blue\no|🪻|Red",
+      "desc": "_WhatsApp group me ek vote start karein._",
+      "notes": "_Agar koi recipients specify nahi kiye gaye, to vote message sirf current group me bheja jayega._",
+      "no_vote": "_Koi vote available nahi hai!_",
+      "total_vote": "_total votes :_ *{0}*",
+      "delete_vote": "_Naya vote set karne ke liye current vote ko delete karein._",
+      "option_required": "_2 ya zyada options required hain._",
+      "question_required": "*question required*",
+      "vote": "*_React karein ya option ko reply karein vote dene ke liye._*",
       "vote_deleted": "_Vote deleted._",
-      "voted": "@{0} voted for {1}\n\n${2}"
+      "voted": "@{0} ne {1} ke liye vote diya\n\n${2}"
     },
     "warn": {
-      "usage": "Example: warn @user OR warn reset @user. You can also reply to a user's message and type 'warn' or 'warn reset'.",
-      "desc": "Warn a user in the group chat. This command increases a user's warning count. If the count exceeds the limit, the user will be kicked from the group. Use 'warn reset' to clear a user's warnings.",
-      "reset_usage": "Example: warn reset @user (or reply to a user's message and type 'warn reset').",
-      "cannot_remove_admin": "I cannot remove an admin."
+      "usage": "*Misaal:* _warn @user YA warn reset @user. Aap kisi user ke message par reply kar ke bhi 'warn' ya 'warn reset' likh sakte hain._",
+      "desc": "*_Group chat me kisi user ko warn karein. Yeh command user ki warning count ko badhati hai. Agar count limit se zyada ho jaye, to user ko group se nikal diya jayega. 'warn reset' ka use kisi user ki warnings clear karne ke liye karein._"",
+      "reset_usage": "*Misaal:* _warn reset @user (ya user ke message par reply karke 'warn reset' likhein)._",
+      "cannot_remove_admin": "_Main kisi admin ko remove nahi kar sakta._"
     },
     "wcg": {
-      "usage": "Examples:\n- wcg start (force start the word chain game)\n- wcg end (end the current game)\n- wcg <word> (play by continuing the word chain)",
-      "desc": "Word Chain Game: Participate by providing a word that continues the chain. Use 'wcg start' to force start a new game or 'wcg end' to stop the current game."
+      "usage": "*Misaal:* \n- wcg start (force start the word chain game)\n- wcg end (end the current game)\n- wcg <word> (play by continuing the word chain)",
+      "desc": "*_Word Chain Game: Ek word provide karein jo chain continue kare. 'wcg start' ka use naye game ko force start karne ke liye karein ya 'wcg end' ka use game stop karne ke liye._*"
     },
     "wrg": {
-      "usage": "Examples:\n- wrg start (force start the random word game)\n- wrg end (end the current game)\n- wrg <word> (play by submitting a word)",
-      "desc": "Random Word Game: Engage in a game where you submit words in response to a random prompt. Use 'wrg start' to begin a new game or 'wrg end' to finish the game."
+      "usage": "Misaal:\n- wrg start (Random Word Game ko force start karein)\n- wrg end (Current game ko end karein)\n- wrg <word> (Random prompt ka jawab ek word se dein)",
+      "desc": "_Random Word Game: Aik game jisme aap ek random prompt ka jawab ek word se dete hain. 'wrg start' ka use naye game ko shuru karne ke liye karein ya 'wrg end' ka use game khatam karne ke liye._"
     },
     "yts": {
-      "usage": "Example: yts baymax",
-      "desc": "Search for YouTube videos by query or URL. If a valid YouTube URL is provided, detailed information for the first video is returned."
+      "usage": "*Misaal:* yts khaab",
+      "desc": "*_YouTube videos ko query ya URL ke zariye search karein. Agar ek valid YouTube URL provide kiya gaya hai, to pehli video ki tafseelat dikhai jayengi_*"
     },
     "song": {
-      "usage": "Example: song indila love story OR song <YouTube URL> (reply to a message is also supported)",
-      "desc": "Download a song from YouTube. If a URL is provided, the song is downloaded directly; otherwise, a search is performed and a list of results is generated for selection.",
-      "not_found": "No song found for the provided query or URL."
+      "usage": "*Example:* _song see you again YA song <YouTube URL> (reply ka option bhi available hai)._",
+      "desc": "*_YouTube se song download karein. Agar URL diya gaya ho, to song seedha download hoga; agar sirf query ho, to ek list generate hogi jisse aap select kar sakte hain._*",
+      "not_found": "*_Diye gaye query ya URL ke liye koi song nahi mila._*"
     },
     "video": {
-      "usage": "Example: video <YouTube URL> (or reply to a message with the URL)",
-      "desc": "Download a YouTube video. If a direct URL is provided, the video is downloaded; if a search query is provided, a list of results is generated for selection.",
-      "not_found": "No video found for the provided query or URL."
+      "usage": "*Example:* _video <YouTube URL> (ya kisi message par reply karein jo URL contain karta ho)._",
+      "desc": "_YouTube se video download karein. Agar direct URL diya gaya ho, to video download hoga; agar query di gayi ho, to ek list generate hogi jisse aap select kar sakte hain._",
+      "not_found": "_Diye gaye query ya URL ke liye koi video nahi mila._"
     },
     "update": {
-      "usage": "Example: update",
-      "desc": "Check for new updates. Displays available updates or confirms that the bot is up-to-date.",
-      "up_to_date": "Bot is already up-to-date.",
-      "available": "{0} new updates available:\n{1}"
+      "usage": "*Example:* _update_",
+      "desc": "*Naye updates check karein. Available updates dikhayein ya confirm karein ke bot up-to-date hai.*",
+      "up_to_date": "*Bot phaly se up-to-date hai.*",
+      "available": "{0} naye updates available hain:\n{1}"
     },
     "update_now": {
-      "usage": "Example: update now",
-      "desc": "Update the bot to the latest version.",
-      "up_to_date": "Bot is already up-to-date. No updates available.",
-      "updating": "Updating bot...",
-      "updated": "Bot has been successfully updated!"
+      "usage": "*Example:* _update now_",
+      "desc": "_Bot ko latest version me update karein._",
+      "up_to_date": "*Bot already up-to-date hai. Koi update available nahi hai.*",
+      "updating": "_Updating bot..._",
+      "updated": "_Bot successfully update ho gaya hai!_"
     }
   }
 }
