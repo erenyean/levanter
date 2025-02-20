@@ -364,45 +364,45 @@
       "updated": "*_mention ki settings update kar di gayi hain._*"
     },
     "status": {
-      "usage": "*Istmal:* _status on | off | no-dl | except-view <jid,...> | only-view <jid,...>_",
+      "usage": "*Istmaal:* _status on | off | no-dl | except-view <jid,...> | only-view <jid,...>_",
       "desc": "_WhatsApp Status dekhnay ka intizami tor tareeqa banayein._"
     },
     "call": {
-      "usage": "*Istmal:* call on | off",
+      "usage": "*Istmaal:* call on | off",
       "desc": "_Aane wale callon ko khud ba khud rad karne ka nizam banayein_*"
     },
     "read": {
-      "usage": "*Istmal:* read on | off",
+      "usage": "*Istmaal:* read on | off",
       "desc": "_Aane wale messages ko khud ba khud parhna chalu ya band karein_"
     },
     "online": {
-      "usage": "*Istaml:* online on | off",
+      "usage": "*Istmaal:* online on | off",
       "desc": "_Apny account ko hamseha online rakain._"
     },
     "movie": {
-      "usage": "Example: movie <movie title>",
-      "not_found": "Movie not found. Please verify the title and try again.",
-      "desc": "Fetch detailed movie information, including the full plot, from the OMDB API."
+      "usage": "*Misal:* _movie <movie title>_",
+      "not_found": "_Movie nahi mili. title dobara check karein aur koshish karein._",
+      "desc": "_Mukammal kahani samait tafseelat hasil karein OMDB API se._"
     },
     "msgs": {
-      "desc": "Display the group's message count for each member, including individual totals and last seen duration.",
+      "desc": "_Group ke har member ka message count dikhayein, jin mein fard fard total aur aakhri dafa dekha jana shamil hai._",
       "msg_init": "\n*Number :* {0}\n*Name :* {1}\n*Total Msgs :* {2}\n",
       "msg_last": "*lastSeen :* {0} ago\n"
     },
     "reset": {
-      "usage": "Example: reset all OR reset <reply/mention>",
-      "desc": "Reset the message count for either the entire group or a specific member.",
-      "reset_all": "Everyones messages counts deleted",
-      "reset_one": "_@{0} messages counts deleted._"
+      "usage": "*Misal*: _reset karain sary OR reset <reply/mention>_",
+      "desc": "_Poore group ya kisi khaas member ke message count ko reset karein._",
+      "reset_all": "*_Sab ke messages count mita diye gaye hain_*",
+      "reset_one": "_@{0} messages counts delete kar diye gaye hain._"
     },
     "inactive": {
-      "usage": "> Examples:\n-inactive day 10\n- inactive day 10 kick\n- inactive total 100\n- inactive total 100 kick\n- inactive day 7 total 150\n- inactive day 7 total 150 kick\n\nif kick not mentioned, Just list",
-      "desc": "Identify or remove inactive members based on message count or inactivity duration. Append 'kick' to remove members.",
-      "inactives": "_Total inactives are : {0}_",
-      "removing": "_Removing {0} inactive members in 7 seconds_"
+      "usage": "> Examples:\n-inactive day 10\n- inactive day 10 kick\n- inactive total 100\n- inactive total 100 kick\n- inactive day 7 total 150\n- inactive day 7 total 150 kick\n\nif kick jo mention nahi, sirf list",
+      "desc": "_Ghair fa'aal members ki shanakht ya inhe hataane ke liye. Agar 'kick' likhein, to members hata diye jayenge._",
+      "inactives": "_Total ghair fa'aal members hain: {0}_",
+      "removing": "_Removing {0} inactive members 7 seconds main remove kiye jainge_"
     },
     "amute": {
-      "usage": "Usage: amute <hour> <min>\n- amute on | off\n- amute info\n\nReply with text to set a mute message",
+      "usage": "*Istmaal:* _amute <hour> <min>\n- amute on | off\n- amute info\n\n reply text message ky sath mute message set karain._",
       "desc": "Schedule automatic group muting at a specified time with an optional custom message.",
       "not_found": "AutoMute settings not found.",
       "already_disabled": "AutoMute already disabled.",
